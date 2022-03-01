@@ -1,6 +1,6 @@
 $awww-flex-direction:column;
 
-.awww{
+.csss{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -8,22 +8,22 @@ $awww-flex-direction:column;
     border-top-color:gray ;
     border-left:white ;
     border-right-color:white ;
-    border-bottom-color:white;
+    border-bottom-color:gray;
 
 }
 
-.awww-style-column1{
+.csss-style-column1{
     flex-direction:$awww-flex-direction;
 }
 
-.awww-style-column2{
+.csss-style-column2{
     flex-direction:$awww-flex-direction;
 }
 
-.awww-style-column3{
+.csss-style-column3{
     flex-direction:$awww-flex-direction;
 }
 
-.awww-style-column4{
+.csss-style-column4{
     flex-direction:$awww-flex-direction;
 }

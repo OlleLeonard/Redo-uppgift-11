@@ -17,7 +17,8 @@ body {
 }
 
 .loggo-bar {
-  padding: 1px;
+  position: relative;
+  right: 1200px;
 }
 
 .nav-bar1 {
@@ -138,6 +139,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-style: solid;
+  border-top-color: gray;
+  border-left: white;
+  border-right-color: white;
+  border-bottom-color: white;
 }
 
 .awww-style-column1 {
@@ -166,4 +172,78 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.csss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-style: solid;
+  border-top-color: gray;
+  border-left: white;
+  border-right-color: white;
+  border-bottom-color: gray;
+}
+
+.csss-style-column1 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.csss-style-column2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.csss-style-column3 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.csss-style-column4 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bottom-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom-loggo-bar {
+  position: relative;
+  right: 1200px;
+}
+
+.bottom-nav-bar1 {
+  padding: 10px;
+  width: 50px;
+  margin: 20px;
+}
+
+.bottom-nav-bar2 {
+  padding: 10px;
+  width: 50px;
+  margin: 20px;
 }
