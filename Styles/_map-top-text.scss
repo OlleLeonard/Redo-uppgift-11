@@ -1,0 +1,25 @@
+.map-top-text-box{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+.map-box-info{
+    width: 400px;
+}
+
+.map-butt{
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+    width:60px;
+    height: 20px;
+    padding: 20px;
+    margin:10px;
+    display:flex;
+    position: relative;
+    top: 10px;
+
+    
+}
