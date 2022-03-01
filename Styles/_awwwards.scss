@@ -1,0 +1,24 @@
+$awww-flex-direction:column;
+
+.awww{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.awww-style-column1{
+    flex-direction:$awww-flex-direction;
+}
+
+.awww-style-column2{
+    flex-direction:$awww-flex-direction;
+}
+
+.awww-style-column3{
+    flex-direction:$awww-flex-direction;
+}
+
+.awww-style-column4{
+    flex-direction:$awww-flex-direction;
+}

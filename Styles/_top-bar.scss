@@ -1,0 +1,32 @@
+$nav-bar-padding: 10px;
+$nav-bar-width: 50px;
+$nav-bar-margin: 20px;
+
+
+
+.top-bar{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+
+}
+
+.loggo-bar{
+padding: 1px;
+}
+
+.nav-bar1{
+    
+    padding: $nav-bar-padding;
+    width: $nav-bar-width;
+    margin:$nav-bar-margin;
+  
+} 
+
+.nav-bar2{
+    
+    padding: $nav-bar-padding;
+    width: $nav-bar-width;
+    margin: $nav-bar-margin;
+   
+} 
